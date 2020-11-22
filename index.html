@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Navbar</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <header id="header">
+    <nav id="nav-bar">
+      <div class="brand-title">
+        <!--Maybe I can change the div-->
+        <a class="logo" href="/"><img id="header-img"
+            src="https://gloria-project.eu/wp-content/uploads/2012/11/gloria-logo-simple-light-256.png" alt="logo"></a>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li>
+            <a class="nav-link" href="#features">features</a></li>
+          <li>
+            <a class="nav-link" href="#Learn-more">Learn more</a> </li>
+          <li>
+            <a class="nav-link" href="#pricing">pricing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="newform">
+    <section id="My-form">
+      <h2>Receive Special Offers</h2>
+      <p>No Regret for Watching 4k Videos!</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Your Email">
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </section>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <section id="features">
+      <div class="flex-container">
+        <div><i class="fa fa-cloud fa-4x"></i></div>
+        <div>
+          <h2 style="height: 1px;">Save on Cloud</h2>
+          <p>Saving your files to the cloud lets you access them from anywhere and makes it easy to share them with
+            family and friends.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-car fa-4x"></i>
+        </div>
+        <div>
+          <h2 style="height: 1px; color:#202020;">Receive at Door</h2>
+          <p> You Can Receive the Collelction of Your Favorite Film or TV Series in DVDs Quickly at Your Door.</p>
+        </div>
+      </div>
+    </section>
+    <section id="Learn-more">
+      <div class="wrapper">
+        <iframe id="video" src="https://www.youtube.com/embed/55gCAWA1w60"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""></iframe>
+      </div>
+    </section>
+    <section id="pricing">
+      <!--<div class="grid">-->
+      <div class="level1">
+        <h3>Basic Package</h3>
+        <h2>$6</h2>
+        <ul class="ul-pricing">
+          <li class="package -features">1 HD Screen</li>
+          <li class="package -features">Unlimited Videos</li>
+        </ul>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="level2">
+        <h3>Silver Package </h3>
+        <h2>$9</h2>
+        <ul class="ul-pricing">
+          <li class="package -features">2 4K Screens</li>
+          <li class="package -features">Unlimited Videos</li>
+        </ul>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="level3">
+        <h3>Gold Package </h3>
+        <h2>$12</h2>
+        <ul class="ul-pricing">
+          <li class="package -features">3 4K Screens</li>
+          <li class="package -features">Unlimited Videos</li>
+        </ul>
+        <button class="btn">Select</button>
+      </div>
+      <!-- </div>-->
+    </section>
+  </div>
+
+  <section class="footer-all">
+    <footer id="footer">
+      <ul>
+        <li><a class="footer-link" href="https://www.freecodecamp.org/learn/" target="_blank">privacy</a></li>
+        <li><a class="footer-link" href="https://www.freecodecamp.org/learn/" target="_blank">terms</a> </li>
+        <li><a class="footer-link" href="https://www.freecodecamp.org/learn/" target="_blank">About</a></li>
+      </ul>
+    </footer>
+    <p id="footer-copyright">Copyright 2016, Original Trombones</p>
+  </section>
+
+  <script src="test.js" defer></script>
+</body>
+
+</html>
